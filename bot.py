@@ -17,7 +17,9 @@ from disnake.ext import tasks, commands
 from disnake.ext.commands import Bot
 from disnake.ext.commands import Context
 
-#import exceptions
+import exceptions
+# messaging permissions = 534723947584
+# admin permissions = 8
 
 if not os.path.isfile("config.json"):
     sys.exit("'config.json' not found! Please add it and try again.")
